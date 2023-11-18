@@ -1,7 +1,7 @@
 import { IconButton, IconButtonProps, Stack } from "@mui/material";
-import FacebookIcon from "src/assets/icons/facebook.svg?react";
-import InstagramIcon from "src/assets/icons/instagram.svg?react";
-import YoutubeIcon from "src/assets/icons/youtube.svg?react";
+import FacebookIcon from "@/assets/icons/facebook.svg?react";
+import InstagramIcon from "@/assets/icons/instagram.svg?react";
+import YoutubeIcon from "@/assets/icons/youtube.svg?react";
 
 interface CustomIconButtonProps extends IconButtonProps {
   goToUrl: string;

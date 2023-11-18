@@ -1,9 +1,9 @@
 import { Box, Link, LinkProps, Stack, Typography } from "@mui/material";
-import CandidateIcon from "src/assets/icons/candidate.svg?react";
-import EventsIcon from "src/assets/icons/events.svg?react";
-import PoliciesIcon from "src/assets/icons/policies.svg?react";
-import DonateIcon from "src/assets/icons/donate.svg?react";
-import ServiceMailIcon from "src/assets/icons/serviceMail.svg?react";
+import CandidateIcon from "@/assets/icons/candidate.svg?react";
+import EventsIcon from "@/assets/icons/events.svg?react";
+import PoliciesIcon from "@/assets/icons/policies.svg?react";
+import DonateIcon from "@/assets/icons/donate.svg?react";
+import ServiceMailIcon from "@/assets/icons/serviceMail.svg?react";
 
 interface CustomLinkProps extends LinkProps {
   icon: JSX.Element;
