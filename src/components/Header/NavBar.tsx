@@ -51,7 +51,7 @@ export const NavBar: React.FC = () => {
   return (
     <Stack direction="row" useFlexGap spacing={2}>
       {linksList.map((link) => (
-        <CustomLink href={link.href} icon={link.icon}>
+        <CustomLink href={link.href} icon={link.icon} key={link.title}>
           {link.title}
         </CustomLink>
       ))}

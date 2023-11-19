@@ -32,7 +32,7 @@ export const SocialMedia: React.FC = () => {
   return (
     <Stack direction="row" useFlexGap spacing={0.5}>
       {SocialMediaList.map((medium) => (
-        <CustomIconButton goToUrl={medium.goToUrl}>
+        <CustomIconButton goToUrl={medium.goToUrl} key={medium.goToUrl}>
           {medium.icon}
         </CustomIconButton>
       ))}
