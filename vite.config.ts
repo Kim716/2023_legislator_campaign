@@ -6,6 +6,9 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), svgr()],
+
+  base: "/2023_legislator_campaign",
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
